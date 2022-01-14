@@ -5,11 +5,35 @@
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <div class="bg-red-500">Xin chao</div>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+    <div class="w-auto">
+      <div class="bg-indigo-900 h-20 w-5/6 m-auto mt-5 flex justify-center items-center text-white">
+        <img class="w-36" src="./img/download (1).png" alt="">
+      </div>
+       
+      <div class="bg-amber-100 h-8 w-5/6 m-auto flex justify-between mt-1">
+        <div class="">
+          <ul class="ml-4">
+            <li class="inline mr-4 font-medium"><a href="trangchu">Trang chủ</a></li>
+            <li class="inline mr-4 font-medium"><a href="gioithieu">Giới thiệu</a></li>
+            <li class="inline mr-4 font-medium"><a href="lienhe">Liên hệ</a></li>
+            <li class="inline mr-4 font-medium"><a href="baiviet">Bài viết</a></li>
+          </ul>
+        </div>
+        <div class="mt-1 mr-4">
+          <input type="text">
+          <button class="bg-indigo-900 text-white ">Tim kiếm</button>
+        </div>
+      </div>
+
+      <main>
+        <div id="app">
+           
+        </div>
+      </main>
+    </div>
+    <script type="module" src="/src/main.js"></script>
   </body>
 </html>
