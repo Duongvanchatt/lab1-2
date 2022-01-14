@@ -9,16 +9,16 @@ const print = (content) => {
   document.querySelector("#app").innerHTML = content;
 }
 router.on ({
-  "trangchu": () => {
+  "/": () => {
     print(homePage.render());
   },
-  "gioithieu": () => {
+  "/gioithieu": () => {
     print(gioithieu.render());
   },
-  "lienhe": () => {
+  "/lienhe": () => {
     print(about.render());
   },
-  "baiviet": () => {
+  "/baiviet": () => {
     print(content.render());
   }
 });
