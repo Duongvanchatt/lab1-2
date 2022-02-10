@@ -5,21 +5,22 @@ import about from "./page/about";
 import content from "./page/content";
 import NotFoundPage from "./page/notFound";
 const router = new Navigo("/",{linksSelector:"a"});
-const print = (content) => {
-  document.querySelector("#app").innerHTML = content;
+const print = async (content) => {
+  document.querySelector("#app").innerHTML = await content.render();
+  
 }
 router.on ({
   "/": () => {
-    print(homePage.render());
+    print(homePage);
   },
   "/gioithieu": () => {
-    print(gioithieu.render());
+    print(gioithieu);
   },
   "/lienhe": () => {
-    print(about.render());
+    print(about);
   },
   "/baiviet": () => {
-    print(content.render());
+    print(content);
   }
 });
 

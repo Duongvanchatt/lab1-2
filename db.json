@@ -1,0 +1,69 @@
+{
+    "posts": [],
+    "users": [],
+    "products": [{
+        "id": 1,
+        "nameproducts": "Sua chua",
+        "gia": 15000,
+        "desc": "san pham ngon vcl",
+        "anh": "",
+        "giamgia": 13000
+    },
+    {
+        "id": 2,
+        "nameproducts": "Sua chua",
+        "gia": 15000,
+        "desc": "san pham ngon vcl",
+        "anh": "",
+        "giamgia": 13000
+    },
+    {
+        "id": 3,
+        "nameproducts": "Sua chua",
+        "gia": 15000,
+        "desc": "san pham ngon vcl",
+        "anh": "",
+        "giamgia": 13000
+    },
+    {
+        "id": 4,
+        "nameproducts": "Sua chua",
+        "gia": 15000,
+        "desc": "san pham ngon vcl",
+        "anh": "",
+        "giamgia": 13000
+    },
+    {
+        "id": 5,
+        "nameproducts": "Sua chua",
+        "gia": 15000,
+        "desc": "san pham ngon vcl",
+        "anh": "",
+        "giamgia": 13000
+    },
+    {
+        "id": 6,
+        "nameproducts": "Sua chua",
+        "gia": 15000,
+        "desc": "san pham ngon vcl",
+        "anh": "",
+        "giamgia": 13000
+    },
+    {
+        "id": 7,
+        "nameproducts": "Sua chua",
+        "gia": 15000,
+        "desc": "san pham ngon vcl",
+        "anh": "",
+        "giamgia": 13000
+    },
+    {
+        "id": 8,
+        "nameproducts": "Sua chua",
+        "gia": 15000,
+        "desc": "san pham ngon vcl",
+        "anh": "",
+        "giamgia": 13000
+    }
+]
+}
